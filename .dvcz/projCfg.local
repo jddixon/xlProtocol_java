@@ -1,0 +1,4 @@
+# xlatticeProtocol_java/.dvcz/projCfg.local
+
+txt:local:INSTALL.stunplus
+code:local:stun.server.properties
