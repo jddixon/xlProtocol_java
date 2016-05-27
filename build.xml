@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="test" name="protocol" basedir=".">
+<project default="test" name="xlProtocol_java" basedir=".">
   <property name="name"           value="protocol"/>
-  <property name="version"        value="0.2.5"/>
-  <property name="versionDate"    value="2015-12-25"/>
+  <property name="version"        value="0.2.6"/>
+  <property name="versionDate"    value="2016-05-27"/>
   <!-- manual addition -->
   <property name="project_name"   value="xlattice"/>
   <!-- ======================================================= -->
   <!-- S O U R C E   P R O P E R T I E S                       -->
   <!-- ======================================================= -->
   <!-- this is an XLattice subproject, so root_dir is one up   -->
-  <property name="root_dir"       value=".."/>
+  <property name="root_dir"       value="../xlattice_java"/>
   <property name="src_dir"        value="src/java"/>
   <property name="test_src_dir"   value="src/test"/>
   <property name="jml_dir"        value="jml"/>
@@ -57,6 +57,7 @@
   <target name="init"
       description="o Initializes some properties">
     <mkdir dir="${lib_dir}"/>
+    <mkdir dir="${xdoc_dir}"/>
     <condition property="clientKeystoresExist">
       <and>
         <available file="${keystore_dir}/test.client.private"/>
@@ -408,4 +409,5 @@
     <delete file="./test.server.public"/>
   </target>
 </project>
+
 
