@@ -7,21 +7,22 @@ zPjEShF9rvcNa9XEy1dKpcDz9Szbm2SlxOgM83fDDGtOq4SSCSqndtxrOvXXPB57
 H1mJV/FmerbXRPm5ERJVNIxtLk7Gr2Ce45FVlWyJGMhpfVlKkkk+bRQ02OFfazJI
 GQIDAQAB
 -----END RSA PUBLIC KEY-----
-xlProtocol_java v0.2.7
-2016-07-08 17:07:35
-# START CONTENT #
+xlProtocol_java v0.2.8
+2016-09-27 19:55:43
+# BEGIN CONTENT #
 xlProtocol_java
  .dvcz
-  builds d32ae2ebc9eb7c5ce3f310cf3b25bc201383be6d
-  lastBuildList 8208e88b654e594978ba24a50f8964c98167e443
-  projCfg 4262ed5d9cd789e37406fd30c7fdfb0479678651
-  projCfg.local 14f4c65151ee12e9d3d024c89e4851f6b096aa77
-  version abb4fa60b2167f33671446422ae97501c866862c
+  builds 868ca089c7deed6698c4163364c24856523c74c3
+  copyright fdc6cab0fd7077cddba743c357a0e48e7179c181
+  lastBuildList 85649d82293989733b34633c9df72325fa960f72
+  license 31158001bd41a34771e96dad11a089f4863dea28
+  projCfg 1c8c13c350aa22a53befe59a05c090ed5d6f17b3
+  projCfg.local f0114ef7b1ecdd33cd10fb5187fc307a82da7c50
+  version c8b8e396b764519c0494b09bff32911062aa7149
  .gitignore 73b879f8842850058bca4519cca9b24d39bcf052
- CHANGES 37292444236476ca71b63bda1d9e2a503a7ccbdb
+ CHANGES 542745cf42237938c7efb85f2bd616fe0bc24646
  INSTALL.stunplus dcdb704a2c9fce8af5d1da8b1e3784a4aa3da83f
- LICENSE.html 4d0038a843d3f3e0553fca7df2c17ad053916e5d
- LICENSE.md 50a6fc1b15e967d1dc37ba7559cf121a66240830
+ LICENSE-XLATTICE.md bee3a87aa2ec7180859e80c7d7e6167a9c60a26a
  README.md 95c576a9d7c3fb93a5c1c6764b1582bfc2529371
  README.stunplus a3c5a7bd69291485706c16952335d2135fc733f4
  TODO f4f34a803a4fbb151fe838b08440f62895923681
@@ -35,9 +36,9 @@ xlProtocol_java
   stun.server.sh 400096cc03f0ce2ed9741d82b493b50dbe3f9d13
  bkp2U 0460101219d53a36dab520d35221a93f0d139cca
  build.sh 8844d742637d7668927c8c39cc2fba6e6b8736d7
- build.xml 883f4df8464c6a8470cfb460fd88530ae075a8c1
+ build.xml f1669a6ee4862159e6b14946cd18b0d94db3f606
  classpath.sh 76a2ec0287f67fe1074714657aa637f2f706576f
- countem b29a6bed2c56801cc0f00d21c7a4cac0cf211912
+ countem b69ef015f6f97fd4d6792fdaf2d073dd78f33a0c
  ghpDoc
   css
    LICENSE.html5-boilerplate.md ded771b3245b190da0e81c76de5a80d41392c0a6
@@ -69,7 +70,7 @@ xlProtocol_java
      protocol
       TLV.java ef4502c4365e7e9453b4ee9e35fa5751b30c1fb4
       TLV16.java fb204cec2df807912ca36763ee1038c2ef0fac86
-      Version.java fba0ea99fef6ffa632ec2c0c9b100bcd60f1e092
+      Version.java ffb56f40344f087f93a2a189a6072d5b08296f24
       stun
        AddrAttr.java 7d28f03c3da2d02f2181fec98d4756ce36c547bf
        BadAttr.java 17dfef88adbdce1fed456018322df1396f25f387
@@ -159,7 +160,8 @@ xlProtocol_java
  stunplus-files
   xlattice
    INSTALL.stunplus dcdb704a2c9fce8af5d1da8b1e3784a4aa3da83f
-   LICENSE.html 4d0038a843d3f3e0553fca7df2c17ad053916e5d
+   LICENSE-XLATTICE.html db61c19b9e668d625d8767cd0a5325aa04111336
+   LICENSE-XLATTICE.md d1eaa588caa6017fee950e92242099a8ae900dcd
    README.md 95c576a9d7c3fb93a5c1c6764b1582bfc2529371
    README.stunplus a3c5a7bd69291485706c16952335d2135fc733f4
    bin
@@ -173,10 +175,11 @@ xlProtocol_java
     stun.server.private 8185536a2015770966b51b058adc4e7b0e45eced
    lib
     xlattice
-     LICENSE.html 4d0038a843d3f3e0553fca7df2c17ad053916e5d
+     LICENSE-XLATTICE.html db61c19b9e668d625d8767cd0a5325aa04111336
+     LICENSE-XLATTICE.md d1eaa588caa6017fee950e92242099a8ae900dcd
      corexml-0.3.8.jar 8906565eea402f2f82b81a383ce95c24dcde051a
      crypto-0.2.1.jar c3dd92cb0e2100e351f5682f85f1d34677475969
-     protocol-0.2.7.jar c68c72fce7a00e9569e966229fdf48fdabd63c05
+     protocol-0.2.8.jar 4b93db22f52a6cdf367671e16dcc4269c0bc9adb
      transport-0.2.1.jar 781d547b2da1eabd603fac28aa808bcc45b1107e
      util-0.3.11.jar d4c8c62bd73682e9f5e09cc03effe24f79f661b9
    stun.server.properties e806e0602ebd6ae9fb671fe7c656b3cc988ab4db
@@ -185,4 +188,4 @@ xlProtocol_java
  xdocs
 # END CONTENT #
 
-lsfjWfeF2nHDNx6NRE4JD0oWOkR/YZWMXossT2IPQXSWPltsUUw8FdtoBfM9y9+MeVSV7RnBLAowppU/ibAQjAD/3oJhXGsZ8E00iWoJWvtk+oKvDn8KTVgFi0C+DlHeYwn4R3t3EmYEEPZ9JtozyRb7nbrRm3B0+N+/TPBHINR1USuvQhcrzoTV1/gozGkAuyfhGj0XlAWUXRI8UqgUN2WlHmoN5Dp9IE0j+uHi8G5elNHOb0R7r6T5sDWnmZlseHvA9+HzVYlkT8ISgXZiYcx8KnBvnvl7yRTG6i98Qxu/vGfJuDhZsTXlNRpNT+uClHL7m8hcaY61ic1YzHivtg==
+JEJqrY4Pz66YrF9lDo9KAlKI14kuX48gRn0okX9B2c+xwTZVEDtxc+YTArRsVTMaaw57mLZEvF7G9dYGMRCoiaLWfVX5fEwX/EIXA6T7b6mvNmpyf3nLphCqWz85IKuiPF1n8r1XMO1bnZcgzbPybFaFgyH3+sz/YLvohTaDl2YzqJ8F7EZ1ruFzhrMQ+0ukigBGUpGOmuio2UIw9wBRRegXqFvcQXkNcn/IVowbR9eexXiV1WSMadnSgSuWed5xfWUiMnsj0Wx1yqRlBsXZo8IEe7B8VGBZ5eoXdfN+v3FSCy9tIht1HtnXwd2rNCH2V4E1eSR06+TWUhGiXBsWLw==
