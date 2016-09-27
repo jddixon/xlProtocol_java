@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="test" name="xlProtocol_java" basedir=".">
   <property name="name"           value="protocol"/>
-  <property name="version"        value="0.2.7"/>
-  <property name="versionDate"    value="2016-07-08"/>
+  <property name="version"        value="0.2.8"/>
+  <property name="versionDate"    value="2016-09-27"/>
   <!-- manual addition -->
   <property name="project_name"   value="xlattice"/>
   <!-- ======================================================= -->
@@ -354,7 +354,7 @@
       </fileset>
     </copy>
     <!-- project control files -->
-    <copy todir="${dist_dir}/${component}" file="${root_dir}/LICENSE.html" />
+    <copy todir="${dist_dir}/${component}" file="${root_dir}/LICENSE-XLATTICE.html" />
     <copy todir="${dist_dir}/${component}" file="build.xml" />
     <copy todir="${dist_dir}/${component}" file="CHANGES" />
     <copy todir="${dist_dir}/${component}" file="project.properties" />
@@ -409,6 +409,7 @@
     <delete file="./test.server.public"/>
   </target>
 </project>
+
 
 
 
